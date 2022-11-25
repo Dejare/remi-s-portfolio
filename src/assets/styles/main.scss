@@ -1,0 +1,20 @@
+header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.redBg {
+	width: 23vw;
+	height: 100vh;
+	background: #fe5b02;
+	position: absolute;
+	top: 0;
+	right: 5%;
+	z-index: -1;
+	border-bottom-left-radius: 150px;
+	border-bottom-right-radius: 150px;
+	transform: rotate(50deg);
+	margin-top: -8rem;
+}
